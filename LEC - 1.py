@@ -19,7 +19,7 @@ print() # print function
 7. Tuple : Tuple
 8. Set : set
 9. Dictionary : dict
-10. Class : Custome Datatype
+10. Class : Custom Datatype
 '''
 
 # Variable Definitions
