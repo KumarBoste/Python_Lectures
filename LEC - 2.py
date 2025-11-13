@@ -57,3 +57,28 @@ number2 = float(input("Enter the first number:"))
 number3 = number1 + number2 
 
 print(number3)
+
+'''
+DEFINITION 
+Type Casting : Converting one data type to another
+'''
+## PRINT OPERATIONS
+## using "F" Format Method
+
+print(f"The addition of two numbers{number1} and {number2} is {number3}")
+
+print(f"The addition of two numbers {number1} and {number2} is {number3}".format(number1,number2,number3))
+
+## STRING OPERATION 
+
+string = input("Enter a String : ")
+
+## Concept of Indexing
+'''
+Logic:
+H e l l o   W o r l d
+0 1 2 3 4 5 6 7 8 9 10
+-11           -3 -2 -1
+'''
+print(string[4])
+print(string[-7])
