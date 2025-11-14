@@ -16,9 +16,9 @@ print() # print function
 4. Boolean : bool (True / False)
 5. complex : complex (2 + 3i)
 6. List : list []
-7. Tuple : Tuple
+7. Tuple : Tuple ()
 8. Set : set
-9. Dictionary : dict
+9. Dictionary : dict {}
 10. Class : Custom Datatype
 '''
 
