@@ -47,7 +47,7 @@ print(1000 == 1000) # comparison ==
 ### Program :  Addition of Two Numbers
 
 '''
-1. Ask user to enter th two numbers.
+1. Ask user to enter the two numbers.
 2. Addition operation will be performed
 3. Output will get printed.
 '''
