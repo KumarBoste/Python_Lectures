@@ -83,3 +83,30 @@ for i in range(1,10,2):
 
 for i in range(1,6):
   print("*"* i)
+
+
+
+# String Object/Textform
+
+lst =["hello","World","Python","Programming"]
+
+for i in lst:
+  #print(i.lower)
+  #print(i.upper)
+  #print(i.capitalize)
+  #print(i.isdigit)
+  print(i.count("hello"))
+
+
+# Q. print all the even numbers from 1 t 20.
+
+'''
+Logic:
+1. use Range Function to generate numbers
+2. Use for loop to iterate
+3. Use if condition to check the number is even or not. 
+'''
+
+for i in range(1,21):
+  if i % 2 == 0:
+    print(i, end= " ")
