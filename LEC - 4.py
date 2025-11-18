@@ -70,3 +70,10 @@ else :
 # Your Code that you want to time
 end = time.perf_counter() - start
 print('{:.6f}s for the calculation'.format(end))
+
+
+# LOOPS : FOR LOOP & WHILE LOOP
+## RANGE(start,stop,step)
+
+for i in range(1,10,2):
+  print(i)
