@@ -77,3 +77,9 @@ print('{:.6f}s for the calculation'.format(end))
 
 for i in range(1,10,2):
   print(i)
+
+
+# STAR PROGRAM in Python :
+
+for i in range(1,6):
+  print("*"* i)
