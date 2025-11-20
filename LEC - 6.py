@@ -51,3 +51,12 @@ print(lst[-1::4])
 print(lst[-1::-2])
 
 
+
+# concept of index and slicing
+
+lst1 = [[1,2,3,4[10,20,30],[4,5,6,7], 9,10],100]
+print(lst[0][4][2])
+
+lst2 = []
+
+
