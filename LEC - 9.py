@@ -90,3 +90,58 @@ print(bucket1)
 print(bucket2)
 
 
+# Lambda Function
+
+x = lambda x: x**2
+print(x(5))
+
+# Add Function using Add
+## computing  addition using lambda function
+
+add =  lambda a,b: a+b
+print(add(100,200))
+
+## computing  addition using def function
+
+def sum(a,b): # function definition
+ a = 100
+ b = 200
+ return a+b
+
+sum(100,200) # function calling
+
+
+# print whether the number is even or odd using def function
+import time
+start = time.perf_counter()
+number = int(input("Enter the Number: "))
+
+def number1():
+  if number % 2 == 0:
+    print("Even Number")
+  else:
+    print("Odd Number")
+number1()
+end = time.perf_counter() - start
+print('{:.6f}s for the calculation'.format(end))
+
+
+# print whether the number is even or odd using lambda function
+import time
+start = time.perf_counter()
+
+x = lambda number: "Even Number" if number % 2 == 0 else "Odd Number"
+print(x(5))
+
+end = time.perf_counter() - start
+print('{:.6f}s for the calculation'.format(end))
+
+marks = lambda x: "Best" if x >= 90 else ("Median" if x >= 75 else "Poor")
+print(marks(73)) 
+
+
+
+# Calculate Program
+
+HW
+
