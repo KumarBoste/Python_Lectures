@@ -29,7 +29,10 @@ print(bucket1)
 print(bucket2)
 
 
+# Lambda Function
 
+x = lambda x: x**2
+print(x(5))
 # Calculate length of each string using def function
 
 ## Define a iterable :  List
