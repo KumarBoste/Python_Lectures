@@ -141,7 +141,63 @@ print(marks(73))
 
 
 
-# Calculate Program
+# Calculator Program Using DEF FUNCTION
 
-HW
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+
+def multiply(a, b):
+    return a * b
+
+def divide(a, b):
+    if b == 0:
+        return "Error: Cannot divide by zero!"
+    return a / b
+
+print("Simple Calculator using  Def-Functions")
+print("1. Add\n2. Subtract\n3. Multiply\n4. Divide")
+
+choice = int(input("Enter choice (1-4): "))
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+if choice == 1:
+    print("Result:", add(num1, num2))
+elif choice == 2:
+    print("Result:", subtract(num1, num2))
+elif choice == 3:
+    print("Result:", multiply(num1, num2))
+elif choice == 4:
+    print("Result:", divide(num1, num2))
+else:
+    print("Invalid choice!")
+
+# Calculator Program using LAMBDA FUNCTION
+
+add = lambda a, b: a + b
+subtract = lambda a, b: a - b
+multiply = lambda a, b: a * b
+divide = lambda a, b: "Error: Cannot divide by zero!" if b == 0 else a / b
+
+print("Simple Calculator using Lambda Functions")
+print("1. Add\n2. Subtract\n3. Multiply\n4. Divide")
+
+choice = int(input("Enter choice (1-4): "))
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+operations = {
+    1: add,
+    2: subtract,
+    3: multiply,
+    4: divide
+}
+
+if choice in operations:
+    print("Result:", operations[choice](num1, num2))
+else:
+    print("Invalid choice!")
 
